@@ -1,0 +1,14 @@
+//META{"name":"Discord Dark Theme Enhancer","description":"Creates consistency across the clients dark theme by restoring the dark theme to online statused users, as well as changing some misc stuff to make the dark theme slightly prettier! Reload Discord to update the theme (CTRL + R).","author":"Wapour Vave","version":"1337"}*//{}
+
+/*-----------------------------------
+  -----------------------------------
+  BetterDiscord Badges + NameTags CSS
+  -----------------------------------
+  -----------------------------------*/
+
+/*------------------------
+  Imports
+  ------------------------*/
+
+/* Theme Imports */
+@import "https://rawcdn.githack.com/WapourVave/BetterDiscordClientMods/7f3d6672cd49db270c329c5ba300e6aa3fb277cd/Discord Dark Theme Enhancer/Src/DiscordDarkThemeEnhancer.css";
