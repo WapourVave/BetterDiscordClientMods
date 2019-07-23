@@ -1,0 +1,421 @@
+  /*-----------------------------
+  -------------------------------
+  Discord Dark Theme Enhancer Mod
+  -------------------------------
+  -----------------------------*/
+
+  /*-----------------------------------------
+  In Game Popout
+  -----------------------------------------*/
+/* Top part of the user popout while IN GAME (Originally Blurple) */
+.da-headerTop
+{
+  background-color: #202225;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: hsla(0,0%,100%,.1);
+}
+
+/* The bottom bit with the playing status */
+.da-activityUserPopout
+{
+  background-color: #202225;
+}
+
+/* Makes the Bot Tag fit the rest of the client */
+.da-botTagInvert
+{
+  background-color: #7289da;
+  color: #fff; 
+}
+
+/* Makes the Spotify Playing Bar green */
+.da-barInner
+{
+  background-color: #1cb050;
+}
+
+/* Allows the Spotify button to look Spotify Green */
+.da-listeningActionsUserPopout
+{
+  background-color: #1cb050;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: hsla(0,0%,100%,.1);
+}
+
+.da-listeningActionsUserPopout:hover
+{
+  background-color: #1a9e48;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: hsla(0,0%,100%,.1);
+}
+
+/* Makes the Streaming Watch button purple */
+.da-headerStreaming .da-actionsUserPopout
+{
+  background-color: #8b57e4;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: hsla(0,0%,100%,.1);
+}
+
+.da-headerStreaming .da-actionsUserPopout:hover
+{
+  background-color: #774bc1;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: hsla(0,0%,100%,.1);
+}
+
+
+/* Make the Nickname look like a nickname instead of the username */
+.da-headerName
+{
+  font-weight: 600;
+  font-size: 15px;
+/*  color: hsla(0,0%,100%,.6);*/
+}
+
+/* Make the Header Tag with a Nickname on the server consistent with the one without */
+.da-headerTagWithNickname
+{
+  font-size: 16px;
+}
+
+/* Make the Username consistent */
+.da-headerTagWithNickname .da-username
+{
+    font-weight: 600;
+    color: #fff;
+}
+
+  /*-----------------------------------------
+  In Game Bigpop
+  -----------------------------------------*/
+.da-topSectionPlaying
+{
+  background-color: #202225;
+}
+
+.da-topSectionXbox
+{
+  background-color: #202225;
+}
+
+.da-topSectionSpotify
+{
+  background-color: #202225;
+}
+
+.da-topSectionStreaming
+{
+  background-color: #202225;
+}
+
+.da-headerFill
+{
+  background-color: #202225;
+  border-top: solid;
+  border-top-width: 1px;
+  border-top-color: hsla(0,0%,100%,.1);
+}
+
+  /*-----------------------------------------
+  In Game Bigpop Buttons
+  -----------------------------------------*/
+
+/* Friends Request/Send Message Button */
+.da-topSectionPlaying .da-button
+{
+  background-color: #43b581;
+}
+
+.da-topSectionPlaying .da-button:hover
+{
+  background-color: #3ca374;
+}
+
+.da-topSectionXbox .da-button
+{
+  background-color: #43b581;
+}
+
+.da-topSectionXbox .da-button:hover
+{
+  background-color: #3ca374;
+}
+
+.da-topSectionSpotify .da-button
+{
+  background-color: #43b581;
+}
+
+.da-topSectionSpotify .da-button:hover
+{
+  background-color: #3ca374;
+}
+
+.da-topSectionStreaming .da-button
+{
+  background-color: #43b581;
+}
+
+.da-topSectionStreaming .da-button:hover
+{
+  background-color: #3ca374;
+}
+
+.da-topSectionStreaming .da-activityProfile .da-button
+{
+  background-color: #8b57e4;
+  border-color: transparent;
+}
+
+.da-topSectionStreaming .da-activityProfile .da-button:hover
+{
+  background-color: #774bc1;
+  border-color: transparent;
+}
+
+/* Friends Request/Send Message Text */
+.da-topSectionPlaying .da-actionButton .da-contents
+{
+  color: #fff;
+}
+
+.da-topSectionXbox .da-actionButton .da-contents
+{
+  color: #fff;
+}
+
+.da-topSectionSpotify .da-actionButton .da-contents
+{
+  color: #fff;
+}
+
+.da-topSectionStreaming .da-buttonInvertedPurple .da-contents
+{
+  color: #fff;
+}
+
+.da-listeningActionsProfile
+{
+  background-color: #1cb050;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: hsla(0,0%,100%,.1);
+}
+
+  /*-----------------------------------------
+  Online Status
+  -----------------------------------------*/
+
+/* Online Status Small */
+.da-popouts .da-pointerEvents[mask*="url(#svg-mask-status-online)"]
+{
+  fill: #43b581;
+}
+
+/* Online Status Big */
+.da-topSectionPlaying .da-pointerEvents[mask*="url(#svg-mask-status-online)"]
+{
+  fill: #43b581;
+}
+
+/* Online Status Big Xbox */
+.da-topSectionXbox .da-pointerEvents[mask*="url(#svg-mask-status-online)"]
+{
+  fill: #43b581;
+}
+
+/* Online Status Small Mobile */
+.da-popouts .da-pointerEvents[mask*="url(#svg-mask-status-online-mobile)"]
+{
+  fill: #43b581;
+}
+
+/* Online Status Big Mobile */
+.da-topSectionPlaying .da-pointerEvents[mask*="url(#svg-mask-status-online)"]
+{
+  fill: #43b581;
+}
+
+/* Online Status Big Mobile Xbox */
+.da-topSectionXbox .da-pointerEvents[mask*="url(#svg-mask-status-online-mobile)"]
+{
+  fill: #43b581;
+}
+
+
+/* Idle Status Small */
+.da-popouts .da-pointerEvents[mask*="url(#svg-mask-status-idle)"]
+{
+  fill: #faa61a;
+}
+
+/* Idle Status Big */
+.da-topSectionPlaying .da-pointerEvents[mask*="url(#svg-mask-status-idle)"]
+{
+  fill: #faa61a;
+}
+
+/* Idle Status Big Xbox */
+.da-topSectionXbox .da-pointerEvents[mask*="url(#svg-mask-status-idle)"]
+{
+  fill: #faa61a;
+}
+
+/* Idle Status Small Mobile */
+.da-popouts .da-pointerEvents[mask*="url(#svg-mask-status-idle-mobile)"]
+{
+  fill: #faa61a;
+}
+
+/* Idle Status Big Mobile */
+.da-topSectionPlaying .da-pointerEvents[mask*="url(#svg-mask-status-idle-mobile)"]
+{
+  fill: #faa61a;
+}
+
+/* Idle Status Big Mobile Xbox */
+.da-topSectionXbox .da-pointerEvents[mask*="url(#svg-mask-status-idle-mobile)"]
+{
+  fill: #faa61a;
+}
+
+/* Do Not Disturb Status Small */
+.da-popouts .da-pointerEvents[mask*="url(#svg-mask-status-dnd)"]
+{
+  fill: #f04747;
+}
+
+/* Do Not Disturb Status Big */
+.da-topSectionPlaying .da-pointerEvents[mask*="url(#svg-mask-status-dnd)"]
+{
+  fill: #f04747;
+}
+
+/* Do Not Disturb Status Big Xbox */
+.da-topSectionXbox .da-pointerEvents[mask*="url(#svg-mask-status-dnd)"]
+{
+  fill: #f04747;
+}
+
+/* Do Not Disturb Status Small Mobile */
+.da-popouts .da-pointerEvents[mask*="url(#svg-mask-status-dnd-mobile)"]
+{
+  fill: #f04747;
+}
+
+/* Do Not Disturb Status Big Mobile */
+.da-topSectionPlaying .da-pointerEvents[mask*="url(#svg-mask-status-dnd-mobile)"]
+{
+  fill: #f04747;
+}
+
+/* Do Not Disturb Status Big Mobile Xbox */
+.da-topSectionXbox .da-pointerEvents[mask*="url(#svg-mask-status-dnd-mobile)"]
+{
+  fill: #f04747;
+}
+
+/* Streaming Status Small */
+.da-popouts .da-pointerEvents[mask*="url(#svg-mask-status-streaming)"]
+{
+  fill: #8b57e4;
+}
+
+/* Streaming Status Big */
+.da-topSectionStreaming .da-pointerEvents[mask*="url(#svg-mask-status-streaming)"]
+{
+  fill: #8b57e4;
+}
+
+/* Streaming Status Small Mobile */
+.da-popouts .da-pointerEvents[mask*="url(#svg-mask-status-streaming-mobile)"]
+{
+  fill: #8b57e4;
+}
+
+/* Streaming Status Big Mobile */
+.da-topSectionStreaming .da-pointerEvents[mask*="url(#svg-mask-status-streaming-mobile)"]
+{
+  fill: #8b57e4;
+}
+
+  /*-----------------------------------------
+  Discord Badges
+  -----------------------------------------*/
+
+/* Discord Staff Badge */
+.da-profileBadges .da-profileBadgeStaff
+{
+  background-image: url(/assets/4358ad1fb423b346324516453750f569.svg);
+}
+
+/* Discord Bug Hunter Badge */
+.da-profileBadges .da-profileBadgeBugHunter
+{
+  background-image: url(/assets/f61b8981e92feead854f52e5a1ba14f0.svg);
+}
+
+/* Discord Nitro Badges Subscriber */
+.da-profileBadges .da-profileBadgePremium
+{
+  background-image: url(/assets/386884eecd36164487505ddfbac35a9d.svg);
+}
+
+/* Discord Nitro Badges Early Supporter */
+.da-profileBadges .da-profileBadgeEarlySupporter
+{
+  background-image: url(/assets/23e59d799436a73c024819f84ea0b627.svg);
+}
+
+/* Discord HypeSquad Badges Events */
+.da-profileBadges .da-profileBadgeHypesquad
+{
+  background-image: url(/assets/6c73f47daf179ffade99f501bfc5101b.svg);
+}
+
+/* Discord HypeSquad Badges Bravery */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse1
+{
+  background-image: url(/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg);
+}
+
+/* Discord HypeSquad Badges Brilliance */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse2
+{
+  background-image: url(/assets/48cf0556d93901c8cb16317be2436523.svg);
+}
+
+/* Discord HypeSquad Badges Balance */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse3
+{
+  background-image: url(/assets/3245b2cd85b787b195ea8f6e10ef5790.svg)
+}
+
+/* Discord HypeSquad Badges Bravery Winner */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse1Winner
+{
+  background-image: url(/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg);
+}
+
+/* Discord HypeSquad Badges Brilliance Winner */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse2Winner
+{
+  background-image: url(/assets/48cf0556d93901c8cb16317be2436523.svg);
+}
+
+/* Discord HypeSquad Badges Balance Winner */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse3Winner
+{
+  background-image: url(/assets/3245b2cd85b787b195ea8f6e10ef5790.svg)
+}
