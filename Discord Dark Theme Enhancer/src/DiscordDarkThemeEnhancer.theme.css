@@ -10,13 +10,13 @@
   Version Info
   -----------------------------------------*/
 /* Hide the Name, Version and Author all in one fatal swoop */
-li[data-name*="Discord Dark Theme Enhancer"] .bda-header-title
+li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title
 {
 	font-size: 0px;
 }
 
 /* The new Name, Version and Author information! */
-li[data-name*="Discord Dark Theme Enhancer"] .bda-header-title:after
+li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title:after
 {
 	font-size: 12px;
 	content: "Discord Dark Theme Enhancer v1.1.2 by Wapour Vave⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Thank You Friend! 🙂";
@@ -24,19 +24,19 @@ li[data-name*="Discord Dark Theme Enhancer"] .bda-header-title:after
 }
 
 /* Make the Description Text invisible */
-#bd-settingspane-container li[data-name*="Discord Dark Theme Enhancer"]
+#bd-settingspane-container li[data-name*="Discord Dark Theme Enhancer Updater"]
 {
 	font-size: 0px;
 }
 
 /* Remove the ugly space created between the newly replaced text and the line seperator thing */
-#bd-settingspane-container li[data-name*="Discord Dark Theme Enhancer"] .scroller-wrap .scroller
+#bd-settingspane-container li[data-name*="Discord Dark Theme Enhancer Updater"] .scroller-wrap .scroller
 {
 /*	margin: 0px;*/
 }
 
 /* Replacement Description Text */
-#bd-settingspane-container li[data-name*="Discord Dark Theme Enhancer"]:after
+#bd-settingspane-container li[data-name*="Discord Dark Theme Enhancer Updater"]:after
 {
 	font-size: 16px;
 	color: #b9bbbe;
