@@ -30,17 +30,17 @@ li[data-name*="Discord Dark Theme Enhancer CreationDate Patch"] .bda-header-titl
   /* This is positioning again, but for those who use the Creation Date Plugin */
 .da-avatar[user_by_bdfdb*="142795541833580544"]:after
 {
-  bottom:  65px;
+  bottom:  65px!important;
 }
 
 /* This is the tooltip location, but for those who use the Creation Date Plugin */
 .da-avatar[user_by_bdfdb*="142795541833580544"]:hover:before
 {
-    bottom: 38px;;
+    bottom: 38px!important;
 }
 
 /* Popout Triangle for the Creation Date Plugin */
 .da-avatar[user_by_bdfdb*="142795541833580544"]:hover+.da-headerInfo:after
 {
-  top: 57px;
+  top: 57px!important;
 }
