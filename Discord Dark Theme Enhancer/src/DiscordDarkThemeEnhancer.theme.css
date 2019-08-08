@@ -1,0 +1,440 @@
+//META{"name":"Discord Dark Theme Enhancer Updater","description":"Creates consistency across the clients dark theme by restoring the dark theme to online statused users, as well as changing some misc stuff to make the dark theme slightly prettier! Reload Discord to update the theme (CTRL + R).","author":"Wapour Vave⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Enable Me Please! ->","version":"1.0.0"}*//{}
+
+  /*-----------------------------
+  -------------------------------
+  Discord Dark Theme Enhancer Mod
+  -------------------------------
+  -----------------------------*/
+
+  /*-----------------------------------------
+  Version Info
+  -----------------------------------------*/
+/* Hide the Name, Version and Author all in one fatal swoop */
+li[data-name*="Discord Dark Theme Enhancer"] .bda-header-title
+{
+	font-size: 0px;
+}
+
+/* The new Name, Version and Author information! */
+li[data-name*="Discord Dark Theme Enhancer"] .bda-header-title:after
+{
+	font-size: 12px;
+	content: "Discord Dark Theme Enhancer v1.1.2 by Wapour Vave⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Thank You Friend! 🙂";
+	bottom: 10px;
+}
+
+/* Make the Description Text invisible */
+#bd-settingspane-container li[data-name*="Discord Dark Theme Enhancer"]
+{
+	font-size: 0px;
+}
+
+/* Remove the ugly space created between the newly replaced text and the line seperator thing */
+#bd-settingspane-container li[data-name*="Discord Dark Theme Enhancer"] .scroller-wrap .scroller
+{
+/*	margin: 0px;*/
+}
+
+/* Replacement Description Text */
+#bd-settingspane-container li[data-name*="Discord Dark Theme Enhancer"]:after
+{
+	font-size: 16px;
+	color: #b9bbbe;
+	content: "Creates consistency across the clients dark theme by restoring the dark theme to online statused users, as well as changing some misc stuff to make the dark theme slightly prettier! Reload Discord to update the theme (CTRL + R).";
+	position: relative;
+	bottom: 10px;
+}
+
+  /*-----------------------------------------
+  Fun little dev badge for the Gamer
+  -----------------------------------------*/
+/* This is the badge and its positioning */
+.da-avatar[user_by_bdfdb*="142795541833580544"]:after
+{
+	content: url("https://steamcommunity-a.akamaihd.net/economy/emoticonlarge/b1");
+	zoom: 48%;
+	position: relative;
+	right: -335px;
+	bottom: 65px;
+}
+
+/* This is the badge positioning, but using Unicode instead of an image */
+/*.da-avatar[user_by_bdfdb*="142795541833580544"]:after
+{
+	content: "🎨";
+	font-size: 23px;
+	position: relative;
+	right: -158px;
+	bottom: 28px;
+}*/
+
+/* Spinning Animation :^) */
+@keyframes rotate
+{
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+/* Rainbow Stuff */
+@keyframes rainbow 
+{
+    10% { background-color: #202225; }
+    20% { background-color: #4B0082; }
+    30% { background-color: #0000FF; }
+    40% { background-color: #00FF00; }
+    50% { background-color: #FFFF00; }
+    60% { background-color: #FF7F00; }
+    70% { background-color: #FF0000; }
+    80% { background-color: #1AFFA8; }
+    90% { background-color: #0027FF; }
+    100% { background-color: #FF0080; }
+}
+
+/* You spin me right round baby right round */
+.da-avatar[user_by_bdfdb*="142795541833580544"]:active>*, .da-avatar[user_by_bdfdb*="142795541833580544"]:active~*
+{
+	-webkit-animation: rotate 1s infinite linear;
+}
+
+/* Now with colour! */
+.da-avatar[user_by_bdfdb*="142795541833580544"]:active:before
+{
+	-webkit-animation: rainbow 1s infinite linear;
+}
+
+/* Lets make the cursor all happy! */
+.da-avatar[user_by_bdfdb*="142795541833580544"]:hover
+{
+	cursor: pointer;
+}
+
+
+/* And this is the fancy text to go along with it! */
+.da-avatar[user_by_bdfdb*="142795541833580544"]:hover:before
+{
+	content: "Theme Developer";
+	z-index: 9999;
+	font-size: 14px;
+	color: #fff;
+	position: absolute;
+	right: -158px; 
+	bottom: 38px;
+	background-color: #000;
+	padding: 9px;
+	padding-right: 12px;
+	padding-left: 12px;
+	border-radius: 6px;
+}
+
+/* The little tooltip is gonna need a popout triangle */
+.da-avatar[user_by_bdfdb*="142795541833580544"]:hover+.da-headerInfo:after
+{
+	content: "";
+	border-width: 10px 9px 0 9px;
+	border-style: solid;
+	border-color: #000 transparent transparent transparent;
+	right: 400px;
+	top: 58px;
+	position: absolute;
+}
+
+  /*-----------------------------------------
+  In Game Popout
+  -----------------------------------------*/
+/* Top part of the user popout while IN GAME (Originally Blurple) */
+.da-headerTop
+{
+  background-color: #202225;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: hsla(0,0%,100%,.1);
+}
+
+/* The bottom bit with the playing status */
+.da-activityUserPopout
+{
+  background-color: #202225;
+}
+
+/* Makes the Bot Tag fit the rest of the client */
+.da-botTagInvert
+{
+  background-color: #7289da;
+  color: #fff; 
+}
+
+/* Makes the Spotify Playing Bar green */
+.da-barInner
+{
+  background-color: #1cb050;
+}
+
+/* Allows the Spotify button to look Spotify Green */
+.da-listeningActionsUserPopout
+{
+  background-color: #1cb050;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: hsla(0,0%,100%,.1);
+}
+
+.da-listeningActionsUserPopout:hover
+{
+  background-color: #1a9e48;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: hsla(0,0%,100%,.1);
+}
+
+/* Makes the Streaming Watch button purple */
+.da-headerStreaming .da-actionsUserPopout
+{
+  background-color: #8b57e4;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: hsla(0,0%,100%,.1);
+}
+
+.da-headerStreaming .da-actionsUserPopout:hover
+{
+  background-color: #774bc1;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: hsla(0,0%,100%,.1);
+}
+
+
+/* Make the Nickname look like a nickname instead of the username */
+.da-headerName
+{
+  	position: relative;
+  	font-weight: 300;
+  	font-size: 15px;
+  	color: hsla(0,0%,100%,.6);
+  	bottom: -17px;
+}
+
+/* Make the Avatar not look like retart as its too high up */
+.da-headerNameWrapper
+{
+	height: 1px;
+}
+
+/* Make the Header Tag with a Nickname on the server consistent with the one without */
+.da-headerTagWithNickname
+{
+	padding-bottom: 15px;
+	font-size: 16px;
+}
+
+/* Make the Username consistent */
+.da-headerTagWithNickname .da-username
+{
+    font-weight: 600;
+    color: #fff;
+}
+
+  /*-----------------------------------------
+  In Game Bigpop
+  -----------------------------------------*/
+.da-topSectionPlaying, .da-topSectionXbox, .da-topSectionSpotify, .da-topSectionStreaming
+{
+  background-color: #202225;
+}
+
+.da-headerFill
+{
+  background-color: #202225;
+  border-top: solid;
+  border-top-width: 1px;
+  border-top-color: hsla(0,0%,100%,.1);
+}
+
+  /*-----------------------------------------
+  In Game Bigpop Buttons
+  -----------------------------------------*/
+
+/* Friends Request/Send Message Button */
+.da-topSectionPlaying .da-button
+{
+  background-color: #43b581;
+}
+
+.da-topSectionPlaying .da-button:hover
+{
+  background-color: #3ca374;
+}
+
+.da-topSectionXbox .da-button
+{
+  background-color: #43b581;
+}
+
+.da-topSectionXbox .da-button:hover
+{
+  background-color: #3ca374;
+}
+
+.da-topSectionSpotify .da-button
+{
+  background-color: #43b581;
+}
+
+.da-topSectionSpotify .da-button:hover
+{
+  background-color: #3ca374;
+}
+
+.da-topSectionStreaming .da-button
+{
+  background-color: #43b581;
+}
+
+.da-topSectionStreaming .da-button:hover
+{
+  background-color: #3ca374;
+}
+
+.da-topSectionStreaming .da-activityProfile .da-button
+{
+  background-color: #8b57e4;
+  border-color: transparent;
+}
+
+.da-topSectionStreaming .da-activityProfile .da-button:hover
+{
+  background-color: #774bc1;
+  border-color: transparent;
+}
+
+/* Friends Request/Send Message Text */
+.da-topSectionPlaying .da-actionButton .da-contents
+{
+  color: #fff;
+}
+
+.da-topSectionXbox .da-actionButton .da-contents
+{
+  color: #fff;
+}
+
+.da-topSectionSpotify .da-actionButton .da-contents
+{
+  color: #fff;
+}
+
+.da-topSectionStreaming .da-buttonInvertedPurple .da-contents
+{
+  color: #fff;
+}
+
+.da-listeningActionsProfile
+{
+  background-color: #1cb050;
+  border: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: hsla(0,0%,100%,.1);
+}
+
+  /*-----------------------------------------
+  Online Status
+  -----------------------------------------*/
+
+/* Online Status */
+.da-pointerEvents[mask*="url(#svg-mask-status-online)"], .da-pointerEvents[mask*="url(#svg-mask-status-online-mobile)"]
+{
+  fill: #43b581;
+}
+
+/* Idle Status */
+.da-pointerEvents[mask*="url(#svg-mask-status-idle)"], .da-pointerEvents[mask*="url(#svg-mask-status-idle-mobile)"]
+{
+  fill: #faa61a;
+}
+
+/* Do Not Disturb Status */
+.da-pointerEvents[mask*="url(#svg-mask-status-dnd)"], .da-pointerEvents[mask*="url(#svg-mask-status-dnd-mobile)"]
+{
+  fill: #f04747;
+}
+
+/* Streaming Status */
+.da-pointerEvents[mask*="url(#svg-mask-status-streaming)"], .da-pointerEvents[mask*="url(#svg-mask-status-streaming-mobile)"]
+{
+  fill: #8b57e4;
+}
+
+  /*-----------------------------------------
+  Discord Badges
+  -----------------------------------------*/
+
+/* Discord Staff Badge */
+.da-profileBadges .da-profileBadgeStaff
+{
+	background-image: url(https://canary.discordapp.com/assets/4358ad1fb423b346324516453750f569.svg);
+}
+
+/* Discord Bug Hunter Badge */
+.da-profileBadges .da-profileBadgeBugHunter
+{
+  background-image: url(https://canary.discordapp.com/assets/f61b8981e92feead854f52e5a1ba14f0.svg);
+}
+
+/* Discord Nitro Badges Subscriber */
+.da-profileBadges .da-profileBadgePremium
+{
+  background-image: url(https://canary.discordapp.com/assets/386884eecd36164487505ddfbac35a9d.svg);
+}
+
+/* Discord Nitro Badges Early Supporter */
+.da-profileBadges .da-profileBadgeEarlySupporter
+{
+  background-image: url(https://canary.discordapp.com/assets/23e59d799436a73c024819f84ea0b627.svg);
+}
+
+/* Discord HypeSquad Badges Events */
+.da-profileBadges .da-profileBadgeHypesquad
+{
+  background-image: url(https://canary.discordapp.com/assets/6c73f47daf179ffade99f501bfc5101b.svg);
+}
+
+/* Discord HypeSquad Badges Bravery */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse1
+{
+  background-image: url(https://canary.discordapp.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg);
+}
+
+/* Discord HypeSquad Badges Brilliance */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse2
+{
+  background-image: url(https://canary.discordapp.com/assets/48cf0556d93901c8cb16317be2436523.svg);
+}
+
+/* Discord HypeSquad Badges Balance */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse3
+{
+  background-image: url(https://canary.discordapp.com/assets/3245b2cd85b787b195ea8f6e10ef5790.svg)
+}
+
+/* Discord HypeSquad Badges Bravery Winner */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse1Winner
+{
+  background-image: url(https://canary.discordapp.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg);
+}
+
+/* Discord HypeSquad Badges Brilliance Winner */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse2Winner
+{
+  background-image: url(https://canary.discordapp.com/assets/48cf0556d93901c8cb16317be2436523.svg);
+}
+
+/* Discord HypeSquad Badges Balance Winner */
+.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse3Winner
+{
+  background-image: url(https://canary.discordapp.com/assets/3245b2cd85b787b195ea8f6e10ef5790.svg)
+}
