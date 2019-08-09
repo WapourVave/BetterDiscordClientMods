@@ -264,16 +264,26 @@ li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title:after
   /*-----------------------------------------
   In Game Buttons
   -----------------------------------------*/
-/* Friends Request/Send Message Colouring */
-.da-topSectionPlaying .da-button, .da-topSectionXbox .da-button, .da-topSectionSpotify .da-button, .da-topSectionStreaming .da-button
+.da-topSectionPlaying .da-button
 {
-  background-color: #43b581!important; /* Important for "Ask to Join" Text, it doesn't work without it! */
+  background-color: #43b581!important;
+}
+
+.da-topSectionPlaying .da-button:hover
+{
+  background-color: #3ca374!important;
+}
+
+/* Friends Request/Send Message Colouring */
+.da-topSectionXbox .da-button, .da-topSectionSpotify .da-button, .da-topSectionStreaming .da-button
+{
+  background-color: #43b581 /* Important for "Ask to Join" Text, it doesn't work without it! */
 }
 
 /* For when the buttons are hovered over */
-.da-topSectionPlaying .da-button:hover, .da-topSectionXbox .da-button:hover, .da-topSectionSpotify .da-button:hover, .da-topSectionStreaming .da-button:hover
+.da-topSectionXbox .da-button:hover, .da-topSectionSpotify .da-button:hover, .da-topSectionStreaming .da-button:hover
 {
-  background-color: #3ca374!important; /* Important for "Ask to Join" Text, it doesn't work without it! */
+  background-color: #3ca374; /* Important for "Ask to Join" Text, it doesn't work without it! */
 }
 
 /* The Streaming button is purple so that's what this is */
