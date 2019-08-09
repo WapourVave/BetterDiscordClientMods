@@ -19,7 +19,7 @@ li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title
 li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title:after
 {
 	font-size: 12px;
-	content: "Discord Dark Theme Enhancer v1.2.1 by Wapour Vave⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Thank You Friend! 🙂";
+	content: "Discord Dark Theme Enhancer v1.3.3 by Wapour Vave⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Thank You Friend! 🙂";
 	bottom: 10px;
 }
 
@@ -129,10 +129,10 @@ li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title:after
 }
 
   /*-----------------------------------------
-  In Game Popout
+  In Game Mini Popout
   -----------------------------------------*/
-/* Top part of the user popout while IN GAME (Originally Blurple) */
-.da-headerTop
+/* Top part of the user popout while IN GAME, as well as the bottom bit with the playing status (Originally Blurple) */
+.da-headerTop, .da-activityUserPopout
 {
   background-color: #202225;
   border-bottom: solid;
@@ -140,10 +140,17 @@ li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title:after
   border-bottom-color: hsla(0,0%,100%,.1);
 }
 
-/* The bottom bit with the playing status */
-.da-activityUserPopout
+/* Makes the Playing Status Button not empty and ugly anymore */
+.da-headerPlaying .da-button
 {
-  background-color: #202225;
+  border-color: transparent!important;
+  background-color: #43b581!important;
+}
+
+.da-headerPlaying .da-button:hover
+{
+  border-color: transparent;
+  background-color: #3ca374!important;
 }
 
 /* Makes the Bot Tag fit the rest of the client */
@@ -160,43 +167,53 @@ li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title:after
 }
 
 /* Allows the Spotify button to look Spotify Green */
-.da-listeningActionsUserPopout
+.da-listeningActionsUserPopout .da-button
 {
   background-color: #1cb050;
-  border: 1px;
-  border-style: solid;
+  border-color: transparent;
   border-radius: 3px;
-  border-color: hsla(0,0%,100%,.1);
 }
 
-.da-listeningActionsUserPopout:hover
+.da-listeningActionsUserPopout .da-button:hover
 {
   background-color: #1a9e48;
-  border: 1px;
-  border-style: solid;
+  border-color: transparent;
   border-radius: 3px;
-  border-color: hsla(0,0%,100%,.1);
 }
 
 /* Makes the Streaming Watch button purple */
 .da-headerStreaming .da-actionsUserPopout
 {
   background-color: #8b57e4;
-  border: 1px;
-  border-style: solid;
   border-radius: 3px;
-  border-color: hsla(0,0%,100%,.1);
 }
 
 .da-headerStreaming .da-actionsUserPopout:hover
 {
   background-color: #774bc1;
+  border-radius: 3px;
+}
+
+/* Spotify + Xbox Borders + Streaming + Game Not Detected */
+.da-listeningActionsProfile .da-button, .da-actionsProfile .da-button, .da-headerStreaming .da-button
+{
+  border-color: transparent!important;
   border: 1px;
   border-style: solid;
   border-radius: 3px;
-  border-color: hsla(0,0%,100%,.1);
 }
 
+/* Connect Xbox Live Button */
+.da-headerXbox .da-button
+{
+  background-color: #107c10;
+  right: -32px;
+}
+
+.da-headerXbox .da-button:hover
+{
+  background-color: #0d630d;
+}
 
 /* Make the Nickname look like a nickname instead of the username */
 .da-headerName
@@ -229,7 +246,7 @@ li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title:after
 }
 
   /*-----------------------------------------
-  In Game Bigpop
+  In Game Big Popout
   -----------------------------------------*/
 .da-topSectionPlaying, .da-topSectionXbox, .da-topSectionSpotify, .da-topSectionStreaming
 {
@@ -245,50 +262,21 @@ li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title:after
 }
 
   /*-----------------------------------------
-  In Game Bigpop Buttons
+  In Game Buttons
   -----------------------------------------*/
-
-/* Friends Request/Send Message Button */
-.da-topSectionPlaying .da-button
+/* Friends Request/Send Message Colouring */
+.da-topSectionPlaying .da-button, .da-topSectionXbox .da-button, .da-topSectionSpotify .da-button, .da-topSectionStreaming .da-button
 {
-  background-color: #43b581;
+  background-color: #43b581!important; /* Important for "Ask to Join" Text, it doesn't work without it! */
 }
 
-.da-topSectionPlaying .da-button:hover
+/* For when the buttons are hovered over */
+.da-topSectionPlaying .da-button:hover, .da-topSectionXbox .da-button:hover, .da-topSectionSpotify .da-button:hover, .da-topSectionStreaming .da-button:hover
 {
-  background-color: #3ca374;
+  background-color: #3ca374!important; /* Important for "Ask to Join" Text, it doesn't work without it! */
 }
 
-.da-topSectionXbox .da-button
-{
-  background-color: #43b581;
-}
-
-.da-topSectionXbox .da-button:hover
-{
-  background-color: #3ca374;
-}
-
-.da-topSectionSpotify .da-button
-{
-  background-color: #43b581;
-}
-
-.da-topSectionSpotify .da-button:hover
-{
-  background-color: #3ca374;
-}
-
-.da-topSectionStreaming .da-button
-{
-  background-color: #43b581;
-}
-
-.da-topSectionStreaming .da-button:hover
-{
-  background-color: #3ca374;
-}
-
+/* The Streaming button is purple so that's what this is */
 .da-topSectionStreaming .da-activityProfile .da-button
 {
   background-color: #8b57e4;
@@ -302,33 +290,31 @@ li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title:after
 }
 
 /* Friends Request/Send Message Text */
-.da-topSectionPlaying .da-actionButton .da-contents
+.da-topSectionPlaying .da-actionButton .da-contents, .da-topSectionXbox .da-actionButton .da-contents, .da-topSectionSpotify .da-actionButton .da-contents, .da-topSectionStreaming .da-buttonInvertedPurple .da-contents
 {
   color: #fff;
 }
 
-.da-topSectionXbox .da-actionButton .da-contents
-{
-  color: #fff;
-}
-
-.da-topSectionSpotify .da-actionButton .da-contents
-{
-  color: #fff;
-}
-
-.da-topSectionStreaming .da-buttonInvertedPurple .da-contents
-{
-  color: #fff;
-}
-
-.da-listeningActionsProfile
+/* Spotify Green */
+.da-listeningActionsProfile .da-button
 {
   background-color: #1cb050;
-  border: 1px;
-  border-style: solid;
-  border-radius: 3px;
-  border-color: hsla(0,0%,100%,.1);
+}
+
+.da-listeningActionsProfile .da-button:hover
+{
+  background-color: #1a9e48;
+}
+
+/* Xbox Green */
+.da-topSectionXbox .da-actionsProfile .da-button
+{
+  background-color: #107c10;
+}
+
+.da-topSectionXbox .da-actionsProfile .da-button:hover
+{
+  background-color: #0d630d;
 }
 
   /*-----------------------------------------
@@ -364,67 +350,73 @@ li[data-name*="Discord Dark Theme Enhancer Updater"] .bda-header-title:after
   -----------------------------------------*/
 
 /* Discord Staff Badge */
-.da-profileBadges .da-profileBadgeStaff
+.da-profileBadgeStaff
 {
 	background-image: url(https://canary.discordapp.com/assets/4358ad1fb423b346324516453750f569.svg);
 }
 
+/* Discord Partner Badge */
+.da-profileBadgePartner
+{
+  background-image: url(https://canary.discordapp.com/assets/33fedf082addb91d88abc272b4b18daa.svg);
+}
+
 /* Discord Bug Hunter Badge */
-.da-profileBadges .da-profileBadgeBugHunter
+.da-profileBadgeBugHunter
 {
   background-image: url(https://canary.discordapp.com/assets/f61b8981e92feead854f52e5a1ba14f0.svg);
 }
 
 /* Discord Nitro Badges Subscriber */
-.da-profileBadges .da-profileBadgePremium
+.da-profileBadgePremium
 {
   background-image: url(https://canary.discordapp.com/assets/386884eecd36164487505ddfbac35a9d.svg);
 }
 
 /* Discord Nitro Badges Early Supporter */
-.da-profileBadges .da-profileBadgeEarlySupporter
+.da-profileBadgeEarlySupporter
 {
   background-image: url(https://canary.discordapp.com/assets/23e59d799436a73c024819f84ea0b627.svg);
 }
 
 /* Discord HypeSquad Badges Events */
-.da-profileBadges .da-profileBadgeHypesquad
+.da-profileBadgeHypesquad
 {
   background-image: url(https://canary.discordapp.com/assets/6c73f47daf179ffade99f501bfc5101b.svg);
 }
 
 /* Discord HypeSquad Badges Bravery */
-.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse1
+.da-profileBadgeHypeSquadOnlineHouse1
 {
   background-image: url(https://canary.discordapp.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg);
 }
 
 /* Discord HypeSquad Badges Brilliance */
-.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse2
+.da-profileBadgeHypeSquadOnlineHouse2
 {
   background-image: url(https://canary.discordapp.com/assets/48cf0556d93901c8cb16317be2436523.svg);
 }
 
 /* Discord HypeSquad Badges Balance */
-.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse3
+.da-profileBadgeHypeSquadOnlineHouse3
 {
   background-image: url(https://canary.discordapp.com/assets/3245b2cd85b787b195ea8f6e10ef5790.svg)
 }
 
 /* Discord HypeSquad Badges Bravery Winner */
-.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse1Winner
+.da-profileBadgeHypeSquadOnlineHouse1Winner
 {
   background-image: url(https://canary.discordapp.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg);
 }
 
 /* Discord HypeSquad Badges Brilliance Winner */
-.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse2Winner
+.da-profileBadgeHypeSquadOnlineHouse2Winner
 {
   background-image: url(https://canary.discordapp.com/assets/48cf0556d93901c8cb16317be2436523.svg);
 }
 
 /* Discord HypeSquad Badges Balance Winner */
-.da-profileBadges .da-profileBadgeHypeSquadOnlineHouse3Winner
+.da-profileBadgeHypeSquadOnlineHouse3Winner
 {
   background-image: url(https://canary.discordapp.com/assets/3245b2cd85b787b195ea8f6e10ef5790.svg)
 }
