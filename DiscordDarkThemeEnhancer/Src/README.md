@@ -1,1 +1,2 @@
-Stuff Stuff Source Code Don't Use This Blah Blah
+# Discord Dark Theme Enhancer Source
+This is where you can find where the "Updater" versions get their CSS from!
