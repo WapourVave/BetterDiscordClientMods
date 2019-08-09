@@ -2,6 +2,7 @@
 **Mini User Popout for Bots**
 
 The original reason this theme was created was because the BOT Tag was hard to read for me with the Inverted Colours, this is way better!
+
 ![Mini User Popout for Bots](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/2Yq5asJ%5B1%5D.png)
 #
 **Big User Popout for Bots**
@@ -22,7 +23,7 @@ Not much to say here really, its just consistent and objectively prettier and Br
 **Spotify Mini User Popouts**
 
 They are darker and the bars are greener
-[!Spotify Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/53NYJQF%5B1%5D.png)
+![Spotify Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/53NYJQF%5B1%5D.png)
 #
 **Spotify Big User Popouts**
 
