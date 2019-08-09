@@ -67,6 +67,6 @@ Err... Nothing changed with these ones, go away!
 #
 **Oh, and I added this**
 
-The thing in the gif I mean, I added it... No, I won't remove it...
+The thing in the gif I mean, I added it... No, I won't remove it... (Also I swear to God this is faster in the client)
 ![Yes I did indeed add this friend!](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/8xDekpg%5B1%5D.gif)
 # That's it, you can stop l👀king at these now!
