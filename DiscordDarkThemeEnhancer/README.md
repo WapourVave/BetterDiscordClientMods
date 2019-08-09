@@ -29,17 +29,17 @@ Not much to say here really, its just consistent and objectively prettier and Br
 **Spotify Mini User Popouts**
 
 They are darker and the bars are greener
-![Spotify Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/53NYJQF%5B1%5D.png)
+![Spotify Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/6d7nLfo%5B1%5D.png)
 #
 **Spotify Big User Popouts**
 
 Did I mention we have coloured badges on all statuses that had them removed? Pretty cool, eh?
-![Spotify Big User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/9752MJ7%5B1%5D.png)
+![Spotify Big User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/27PGGta%5B1%5D.png)
 #
 **Streamer Mini User Popouts**
 
 Makes the big purple thing not purple, not that you ever see anyone streaming on Discord anyway 👀
-![Streamer Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/5WiKtq8%5B1%5D.png)
+![Streamer Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/tn9TPoR%5B1%5D.png)
 #
 **Streamer Big User Popouts**
 
@@ -49,12 +49,12 @@ Oh, enjoy the free rep random streamer!
 **Xbox Mini User Popouts**
 
 Less green. You don't like green? No problem!
-![Xbox Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/6UGSFfW%5B1%5D.png)
+![Xbox Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/72h1eum%5B1%5D.png)
 #
 **Xbox Big User Popouts**
 
 Copy Dat!
-![Xbox Big User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/FmWKLpr%5B1%5D.png)
+![Xbox Big User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/4F8JUvp%5B1%5D.png)
 #
 **Normal User Mini Popouts**
 
