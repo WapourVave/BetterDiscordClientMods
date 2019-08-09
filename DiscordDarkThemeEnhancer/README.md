@@ -9,7 +9,7 @@ you can just use the Discord Dark Theme Enhancer on its own!
 
 The original reason this theme was created was because the BOT Tag was hard to read for me with the Inverted Colours, this is way better!
 
-![Mini User Popout for Bots](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/2Yq5asJ%5B1%5D.png)
+![Mini User Popout for Bots](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/4R1RZvb%5B1%5D.png)
 #
 **Big User Popout for Bots**
 
@@ -24,7 +24,7 @@ Look at those sexy coloured statuses!
 **Big User Popouts In-Game/Discord RichPresence**
 
 Not much to say here really, its just consistent and objectively prettier and Bradley stinks!
-![Big User Popouts In-Game/Discord RichPresence](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/4NCNhsJ%5B1%5D.png)
+![Big User Popouts In-Game/Discord RichPresence](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/A38fJWQ%5B1%5D.png)
 #
 **Spotify Mini User Popouts**
 
