@@ -8,7 +8,7 @@ The original reason this theme was created was because the BOT Tag was hard to r
 **Big User Popout for Bots**
 
 Notice how the BOT Tag is actually visible
-![Big User Popout for Bots](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/2WV1SXo%5B1%5D.png)
+![Big User Popout for Bots](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/4R1RZvb%5B1%5D.png)
 #
 **Mini User Popouts In-Game/Discord RichPresence**
 
@@ -18,22 +18,22 @@ Look at those sexy coloured statuses!
 **Big User Popouts In-Game/Discord RichPresence**
 
 Not much to say here really, its just consistent and objectively prettier and Bradley stinks!
-![Big User Popouts In-Game/Discord RichPresence](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/4NCNhsJ%5B1%5D.png)
+![Big User Popouts In-Game/Discord RichPresence](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/A38fJWQ%5B1%5D.png)
 #
 **Spotify Mini User Popouts**
 
 They are darker and the bars are greener
-![Spotify Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/53NYJQF%5B1%5D.png)
+![Spotify Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/6d7nLfo%5B1%5D.png)
 #
 **Spotify Big User Popouts**
 
 Did I mention we have coloured badges on all statuses that had them removed? Pretty cool, eh?
-![Spotify Big User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/9752MJ7%5B1%5D.png)
+![Spotify Big User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/27PGGta%5B1%5D.png)
 #
 **Streamer Mini User Popouts**
 
 Makes the big purple thing not purple, not that you ever see anyone streaming on Discord anyway 👀
-![Streamer Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/5WiKtq8%5B1%5D.png)
+![Streamer Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/tn9TPoR%5B1%5D.png)
 #
 **Streamer Big User Popouts**
 
@@ -43,12 +43,12 @@ Oh, enjoy the free rep random streamer!
 **Xbox Mini User Popouts**
 
 Less green. You don't like green? No problem!
-![Xbox Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/6UGSFfW%5B1%5D.png)
+![Xbox Mini User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/72h1eum%5B1%5D.png)
 #
 **Xbox Big User Popouts**
 
 Copy Dat!
-![Xbox Big User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/FmWKLpr%5B1%5D.png)
+![Xbox Big User Popouts](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/4F8JUvp%5B1%5D.png)
 #
 **Normal User Mini Popouts**
 
@@ -61,6 +61,6 @@ Err... Nothing changed with these ones, go away!
 #
 **Oh, and I added this**
 
-The thing in the gif I mean, I added it... No, I won't remove it...
+The thing in the gif I mean, I added it... No, I won't remove it... (Also I swear to God this is faster in the client)
 ![Yes I did indeed add this friend!](https://github.com/WapourVave/BetterDiscordClientMods/blob/gh-pages/ImageShowcases/DiscordDarkThemeEnhancerShowcase/8xDekpg%5B1%5D.gif)
 # That's it, you can stop l👀king at these now!
