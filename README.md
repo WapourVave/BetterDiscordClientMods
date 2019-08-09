@@ -1,2 +1,2 @@
 # BetterDiscordClientMods
-Client Mods for BetterDiscord!
+A Repo of all **ONE** of my Client Mods for BetterDiscord!
